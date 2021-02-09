@@ -1,1 +1,2 @@
 # ESP-M2-Multisensor
+This Arduino sketch is run as firmware for an ESP32 based prototyping board. It includes support for a BME280 temperature and humidity sensor. There is also capability to support switching of the onboard LED on the chosen board. This code is optimised for device auto-discovery with the Home Assistant home automation platform and uses MQTT as the transport layer for communications between the board and the server.
